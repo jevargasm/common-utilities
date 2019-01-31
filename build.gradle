@@ -9,6 +9,10 @@ scmVersion {
     tag {
         prefix = 'common-utilities'
     }
+
+    repository {
+
+    }
 }
 
 version scmVersion.version
@@ -26,8 +30,4 @@ dependencies {
 task loadGitHubToken {
     scmVersion.repository.customUsername = 'jevargasm'
     scmVersion.repository.customPassword  = 'Agamenon23'
-}
-
-task release {
-    dependsOn loadGitHubToken
 }
