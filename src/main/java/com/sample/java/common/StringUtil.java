@@ -1,4 +1,4 @@
-package com.sample.java.common.impl;
+package com.sample.java.common;
 
 public interface StringUtil {
 
